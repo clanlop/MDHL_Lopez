@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:comic sans Ms ;
+}
+header{
+    padding: 0rem 0.5rem 0rem 0.5rem;
+  
+}
+  h1{
+    display: inline-block;
+    position: relative;
+    top:31px;
+    }
+  nav{
+   height:5vh;
+  display: block;
+  
+  }
+  
+ nav a{
+  background-color:gold;
+   color: aliceblue;
+   display: inline-block;
+   border-radius: 1rem;
+   font-weight: bold;
+   padding: 0.5rem;
+   width: 5rem;
+   text-align: center;
+   text-decoration: none;
+    position: relative;
+    top:10px;
+    left:690px;
+    
+}
+nav a:hover {
+  background-color: goldenrod;
+
+}
+a[href="#"]{
+    background-color:rgb(87, 159, 87);
+    
+}
+ img.banner{
+    width:100%;
+   }
+h2{
+    display:block;
+    text-align: center;
+    border-color:goldenrod;
+    border-style:ridge;
+    position: relative;
+    bottom: 8px;
+}
+section{
+  margin-bottom:50px;
+}
+#logo{
+position: absolute;
+padding: 0rem 0rem 0rem 0.5rem;
+
+}
+#logo:hover{
+transition: 1s;
+  transform: rotate(360deg);
+
+}
+section div{
+  display:inline-block;
+  position: relative;
+  left:150px;
+  bottom:px;
+  padding:10px;
+ border-radius: 0.5rem;
+  border-color:goldenrod ;
+  border-style: ridge;
+  
+}
+div p{
+  margin-left: 30px;
+  
+}
+#img1:hover{
+  display: inline-block;
+  position: relative;
+  left:150px ;
+  top: 50px;
+transform: scale(0.5) translate(-100px);
+transition: 1s;
+  
+}
