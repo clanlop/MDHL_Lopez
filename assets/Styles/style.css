@@ -2,40 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:comic sans Ms ;
+    
 }
+
 header{
     padding: 0rem 0.5rem 0rem 0.5rem;
   
 }
-  h1{
-    display: inline-block;
-    position: relative;
-    top:31px;
+  header>h1{
+    font-family:comic sans Ms ;
     color:rgb(87, 159, 87);
     }
+
+    .container-flex1{
+    display: flex;
+    justify-content: flex-end;
+     
+    }
   nav{
-   height:5vh;
-   display: block;
-    position: sticky;
-     top:0px;
-  
-  }
+   height:3vh;
+   position:sticky;
+   top:0;
+   }
   
  nav a{
   background-color:gold;
    color: aliceblue;
-   display: inline-block;
    border-radius: 1rem;
    font-weight: bold;
-   padding: 0.5rem;
+   padding:0.5rem;
    width: 5rem;
    text-align: center;
    text-decoration: none;
-    position: relative;
-    top:10px;
-    left:690px;
-    
+   margin-inline:0.1rem;
+   
 }
 nav a:hover {
   background-color: goldenrod;
@@ -46,55 +46,62 @@ a[href="#"]{
     
 }
  img.banner{
-    width:100%;
+    width:100vw;
+   
+    
    }
-h2{
-    display:block;
+header>h2{
+  font-family:comic sans Ms ;
     text-align: center;
     border-color:goldenrod;
     border-style:ridge;
-    position: relative;
     bottom: 8px;
    
 }
 
+.container-flex{
+ display:flex;
+ height: 50vh;
+ justify-content:space-between;
+ padding:0.5rem;
+
+}
+
 #logo{
-position: absolute;
-padding: 0rem 0rem 0rem 0.5rem;
+background-color:black ;
+border-radius: 1rem;
 
 }
 #logo:hover{
 transition: 1s;
-  transform: rotate(360deg);
+transform: rotate(360deg);
 }
 
-#homeP{
-  margin-left: 30px;
-  display:inline-block;
-  position: relative;
-  left:150px;
-  padding:10px;
-  margin-bottom:40px;
+.homeP{
+  font-family:comic sans Ms ;
+height: 20rem;
+margin-top:2rem;
 }
-#homeP p{
-  margin-left:0px;
-  text-indent:30px;
+.homeP p,.regul p{
+
+  
+ text-indent:30px;
 }
+#img1{
+  height:15rem ;
+  border-radius:1rem;
+ margin-right:3rem;
+}
+
 #img1:hover{
-  display: inline-block;
-  position: relative;
-  left:100px ;
-  top: 50px;
   transform: scale(0) translate(120px,120px);
   transition: 1s;
   }
-  #img1{
-    margin-left: 150px;
-    border-radius: 1rem;
-  }
+ 
 
 /*cambios para about*/
 #aboutP{
+  font-family:comic sans Ms ;
   margin-left: 30px;
   display:inline-block;
   position: relative;
@@ -117,7 +124,9 @@ transition: 1s;
   text-indent:30px;
 }
 /*cambios para contact*/
-#contactP{ margin-left: 30px;
+#contactP{
+  font-family:comic sans Ms ;
+  margin-left: 30px;
   display:inline-block;
   position: relative;
   left:150px;
@@ -131,4 +140,33 @@ transition: 1s;
     padding:8rem;
    }
   
-  
+  /*rules*/
+  .Erul{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+     margin-top:5rem;
+  }
+  .sport,.regul,.pie{
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+  }
+  .regul{
+    margin-bottom: 5rem;
+  }
+  .enGame{
+    text-align: center;
+    margin-top: 5rem;
+  }
+  table{
+    padding:2rem;
+    margin-left: 6rem;
+  }
+ 
+  td{
+    padding:1rem;
+  }
+  .tab{
+    margin-left: 7rem;
+    margin-top: 1rem;
+  }
