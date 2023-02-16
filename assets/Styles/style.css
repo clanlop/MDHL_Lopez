@@ -47,8 +47,6 @@ a[href="#"]{
 }
  img.banner{
     width:100vw;
-   
-    
    }
 header>h2{
   font-family:comic sans Ms ;
@@ -64,6 +62,7 @@ header>h2{
  height: 50vh;
  justify-content:space-between;
  padding:0.5rem;
+ 
 
 }
 
@@ -83,9 +82,7 @@ height: 20rem;
 margin-top:2rem;
 }
 .homeP p,.regul p{
-
-  
- text-indent:30px;
+text-indent:30px;
 }
 #img1{
   height:15rem ;
@@ -100,11 +97,12 @@ margin-top:2rem;
  
 
 /*cambios para about*/
+
 #aboutP{
   font-family:comic sans Ms ;
   margin-left: 30px;
-  display:inline-block;
-  position: relative;
+  
+ 
   left:150px;
   padding:10px;
   margin-right:200px;
@@ -124,12 +122,17 @@ margin-top:2rem;
   text-indent:30px;
 }
 /*cambios para contact*/
+.container-flex2{
+  display:flex;
+   height: 50vh;
+   justify-content:flex-start;
+   padding:0.5rem;
+ 
+  
+  }
 #contactP{
-  font-family:comic sans Ms ;
-  margin-left: 30px;
-  display:inline-block;
-  position: relative;
-  left:150px;
+ font-family:comic sans Ms ;
+  margin-left:50px;
   height: 150px;
   margin-bottom:50px;
   /*imagen de fondo*/
@@ -138,6 +141,10 @@ margin-top:2rem;
     background-size:cover;
     background-position:center ;
     padding:8rem;
+   }
+   #contactP p{
+    margin-bottom:0.5rem;
+   
    }
   
   /*rules*/
@@ -155,8 +162,8 @@ margin-top:2rem;
     margin-bottom: 5rem;
   }
   .enGame{
-    text-align: center;
-    margin-top: 5rem;
+    text-align:center;
+    margin-top: 2rem;
   }
   table{
     padding:2rem;
@@ -165,8 +172,17 @@ margin-top:2rem;
  
   td{
     padding:1rem;
+    text-align: center;
   }
-  .tab{
-    margin-left: 7rem;
-    margin-top: 1rem;
+  th{
+    padding: 0.5rem;
+   text-align: left;
+   }
+  
+  caption{
+    font-family:comic sans Ms ;
+    color:rgb(87, 159, 87);
+    font-size: 2rem;
   }
+ 
+  
