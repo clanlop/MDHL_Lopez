@@ -4,6 +4,10 @@
     box-sizing: border-box;
     
 }
+body{
+  background-color: darkslategray;
+  color: aliceblue;
+ }
 
 header{
     padding: 0rem 0.5rem 0rem 0.5rem;
@@ -17,6 +21,7 @@ header{
     .container-flex1{
     display: flex;
     justify-content: flex-end;
+
      
     }
   nav{
@@ -45,8 +50,9 @@ a[href="#"]{
     background-color:rgb(87, 159, 87);
     
 }
- img.banner{
+ .banner{
     width:100vw;
+    
    }
 header>h2{
   font-family:comic sans Ms ;
@@ -59,7 +65,7 @@ header>h2{
 
 .container-flex{
  display:flex;
- height: 50vh;
+ height:100vh;
  justify-content:space-between;
  padding:0.5rem;
  
@@ -85,9 +91,10 @@ margin-top:2rem;
 text-indent:30px;
 }
 #img1{
-  height:15rem ;
+  height:30rem ;
   border-radius:1rem;
  margin-right:3rem;
+
 }
 
 #img1:hover{
@@ -105,7 +112,7 @@ text-indent:30px;
  
   left:150px;
   padding:10px;
-  margin-right:200px;
+  margin-right:5rem;
   margin-bottom: 40px;
 }
 #img2:hover{
@@ -132,6 +139,7 @@ text-indent:30px;
   }
 #contactP{
  font-family:comic sans Ms ;
+ color: black;
   margin-left:50px;
   height: 150px;
   margin-bottom:50px;
@@ -184,5 +192,101 @@ text-indent:30px;
     color:rgb(87, 159, 87);
     font-size: 2rem;
   }
+  .pie>p{
+  font-weight: bold;
+  }
+  .container-flex3{
+    display:flex;
+    justify-content:space-between;
+    padding:0.5rem;
+  }
+ /*formulario*/
+ form{
+  border:2px solid;
+  padding:2rem;
+  margin-left:1rem;
+  margin-right: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  background-color: black;
+  color: aliceblue;
+ }
+ form>p,span{
+  color: crimson;
+  
+ }
+ 
+ 
+ h1{
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+ }
+ legend{
+  font-size: 22px;
+  color: goldenrod;
+ }
+  fieldset,label{
+    padding:3px;
+    margin-bottom: 10px;
+  }
  
   
+  .DP{
+    margin-bottom:4rem;
+  }
+  .CP{
+    margin-top:0.5rem;
+  }
+  .PJ{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family:cursive;
+    
+  }
+  .PJ>p{
+    text-indent:30px;
+    margin-top: 0.5rem;
+    
+    
+  }
+  button{
+    background-color:darkcyan;
+   color: aliceblue;
+   border-radius: 1rem;
+   font-weight: bold;
+   padding:1rem;
+   width: 8rem;
+   text-align: center;
+   text-decoration: none;
+   font-size: 20px;
+    margin-top: 1rem;
+  }
+  button:hover{
+background-color: lightseagreen;
+margin-top: 2rem;
+  }
+  input ,select{
+   background-color: rgb(212, 237, 212);
+  }
+  input[type="checkbox"]:checked + label {
+    color: rgb(0, 255, 191);
+  }
+  input[type="radio"]:checked + label {
+    color: rgb(0, 255, 191);
+  }
+  .mapas{
+  margin-bottom: 5rem;
+   margin-left:5rem;
+  }
+  iframe{
+    margin: 1rem;
+    border-radius: 1rem;
+    width:400; 
+    height:300 ;
+    margin-left: 5rem;
+  }
+  #logo2{
+    height: 5rem;
+
+  }
